@@ -1,0 +1,22 @@
+name: rnaseq_pipeline
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fastp
+  - fastqc
+  - multiqc
+  - hisat2
+  - samtools
+  - subread
+  - seqkit
+  - csvtk
+  - pigz
+  - unzip
+  - r-base
+  - r-tidyverse
+  - r-pheatmap
+  - r-ggplot2
+  - r-ggrepel
+  - r-rcolorbrewer
+  - bioconductor-deseq2

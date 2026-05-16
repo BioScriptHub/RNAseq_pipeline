@@ -915,18 +915,3 @@ logs/*.tsv
 | `DEG_UpSet_down_genes.pdf` | 下调基因交集图 | 只统计下调 DEG |
 | `*.top_candidate_genes_ranked.csv` | 候选基因排序 | 用于后续注释和验证 |
 | `RNAseq_analysis_report.html` | 最终 HTML 报告 | 汇总材料方法、结果和解读 |
-
-## 15. 给别人使用时怎么说明
-
-使用方式很简单：
-
-```text
-下载仓库
-  -> 安装 conda 环境
-  -> 放 FASTQ 或交付压缩包
-  -> 放 genome.fa 和 annotation.gtf
-  -> 填 contrasts.csv
-  -> 检查 config.sh
-  -> bash scripts/run_all.sh
-  -> 打开 14_report/RNAseq_analysis_report.html
-```
